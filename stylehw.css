@@ -1,0 +1,49 @@
+:root {
+  --Primary-fontc: #000;
+}
+
+.information {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.information div {
+  flex: 1;
+  border: 2px solid;
+  padding: 0%;
+  max-width: 150px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 2px 3px 4px rgb(136, 135, 135);
+}
+.left {
+  margin-right: 10px;
+}
+.right {
+  margin-left: 10px;
+}
+body {
+  text-align: center;
+}
+h1 {
+  font-size: 35px;
+}
+h2 {
+  font-size: 45px;
+  margin: auto;
+}
+body {
+  background-color: #efcac2;
+}
+p {
+  font-size: 25px;
+  font-weight: 500;
+}
+a {
+  text-decoration: none;
+  color: var(--Primary-fontc);
+}
+img {
+  border-radius: 10px;
+}
