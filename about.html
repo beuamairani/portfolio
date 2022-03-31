@@ -24,16 +24,15 @@
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
-
 body {
-  margin: 60px auto;
-  max-width: 800px;
+    margin: 50px 40px;
+    
 }
 
 h1,
 h2,
 h3 {
-  text-align: center;
+  
   margin: 0;
 }
 
@@ -52,12 +51,11 @@ h3 {
 }
 
 p {
-  padding: 20px;
-  border-radius: 4px;
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
 }
+
 
 .navigation-links {
   display: flex;
@@ -122,7 +120,7 @@ p {
   <body>
       <div class="container-fluid">
           <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
-            <div class="container-fluid">
+            <div class="container">
               <a class="navbar-brand" href="#">Amairani Hernandez</a>
               <button
                 class="navbar-toggler"
@@ -153,9 +151,9 @@ p {
           </nav>
 
 
-    <h1>About me</h1>
+    <h1 class="text-center">About me</h1>
 
-    <h3>Front-end developer from South San Francisco, United States</h3>
+    <h3 class="text-center">Front-end developer from South San Francisco, United States</h3>
     
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
@@ -173,18 +171,18 @@ p {
     <div class="container">
       <div class="row">
         <div class="col-sm-4">
-          <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/030/421/original/Screen_Shot_2022-03-29_at_11.44.54_AM.png?1648580012" class="img-fluid" />
+          <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/030/421/original/Screen_Shot_2022-03-29_at_11.44.54_AM.png?1648580012" class="img-fluid p-2 shadow rounded" />
         </div>
         <div class="col-sm-4">
-          <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/030/422/original/Screen_Shot_2022-03-29_at_11.55.39_AM.png?1648580152" class="img-fluid" />
+          <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/030/422/original/Screen_Shot_2022-03-29_at_11.55.39_AM.png?1648580152" class="img-fluid p-2 shadow rounded" />
         </div>
         <div class="col-sm-4">
-          <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/030/424/original/Screen_Shot_2022-03-29_at_12.00.00_PM.png?1648580420" class="img-fluid" />
+          <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/030/424/original/Screen_Shot_2022-03-29_at_12.00.00_PM.png?1648580420" class="img-fluid p-2 shadow rounded"/>
         </div>
       </div>
     </div>
-    <div id="contact">
-      <h2>📮 Contact me</h2>
+    <div id="contact" class="mt-5">
+      <h2 class="text-center">📮 Contact me</h2>
       <a href="mailto:montanoamairani@gmail.com" class="email-link" id="contact">
         montanoamairani@gmail.com
       </a>
