@@ -40,6 +40,9 @@
 .container {
   padding-bottom: 25px;
 }
+.welcome {
+  margin-top: 60px;
+}
 
 h1 {
   font-size: 55px;
@@ -48,7 +51,6 @@ h1 {
 h2 {
   font-size: 35px;
   margin: auto;
-  margin-top: 65px;
 }
 h3 {
   color: gray;
@@ -58,7 +60,6 @@ body {
 }
 p {
   font-size: 25px;
-  font-weight: 500;
 }
 a {
   text-decoration: none;
@@ -66,4 +67,9 @@ a {
 }
 img {
   border-radius: 10px;
+}
+@media (max-width: 600px) {
+  .description {
+    text-align: center;
+  }
 }
