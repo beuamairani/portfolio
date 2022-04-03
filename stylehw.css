@@ -1,6 +1,10 @@
 :root {
   --Primary-fontc: #000;
 }
+.intro {
+  padding: 200px 25px;
+  position: relative;
+}
 
 .information {
   display: flex;
@@ -20,7 +24,7 @@
 .primary-link {
   margin: 20px;
   border-radius: 4px;
-  padding: 20px;
+  padding: 15px 25px;
   text-decoration: none;
   text-transform: capitalize;
   background-color: white;
@@ -30,7 +34,7 @@
 .secondary-link {
   margin: 20px;
   border-radius: 4px;
-  padding: 20px;
+  padding: 15px 30px;
   text-decoration: none;
   text-transform: capitalize;
   background-color: white;
@@ -38,15 +42,35 @@
   border-style: solid;
 }
 .container {
-  padding-bottom: 25px;
+  padding-bottom: 10px;
 }
 .welcome {
   margin-top: 60px;
+  color: white;
 }
-
+video {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  height: 900px;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 h1 {
   font-size: 55px;
-  font-weight: bold;
+  color: white;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 h2 {
   font-size: 35px;
@@ -56,7 +80,7 @@ h3 {
   color: gray;
 }
 body {
-  background-color: #efcac2;
+  background-color: #white;
 }
 p {
   font-size: 25px;
