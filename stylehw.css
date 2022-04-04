@@ -22,24 +22,40 @@
   box-shadow: 2px 3px 4px rgb(136, 135, 135);
 }
 .primary-link {
+  text-decoration: none;
+  color: white;
   margin: 20px;
   border-radius: 4px;
   padding: 15px 25px;
   text-decoration: none;
   text-transform: capitalize;
-  background-color: white;
+  background-color: rgb(141, 134, 134, 0.2);
   max-width: 150px;
-  border-style: solid;
+  border: solid white;
 }
 .secondary-link {
+  color: white;
   margin: 20px;
   border-radius: 4px;
   padding: 15px 30px;
   text-decoration: none;
   text-transform: capitalize;
-  background-color: white;
+  background-color: rgb(141, 134, 134, 0.2);
+  max-width: 150px;
+  border: solid white;
+}
+
+.body-links {
+  color: black;
+  margin: 20px;
+  border-radius: 4px;
+  padding: 15px 30px;
+  text-decoration: none;
+  text-transform: capitalize;
   max-width: 150px;
   border-style: solid;
+  border-width: 1px;
+  border-color: black;
 }
 .container {
   padding-bottom: 10px;
@@ -48,14 +64,7 @@
   margin-top: 60px;
   color: white;
 }
-video {
-  object-fit: cover;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
+
 .video-wrapper {
   position: relative;
   width: 100%;
@@ -66,29 +75,37 @@ video {
   align-items: center;
   justify-content: center;
 }
+video {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 h1 {
   font-size: 55px;
   color: white;
-  font-family: "Montserrat Alternates", sans-serif;
-  font-family: "Oswald", sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
 }
 h2 {
   font-size: 35px;
   margin: auto;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: lighter;
 }
 h3 {
-  color: gray;
+  color: white;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: lighter;
 }
 body {
-  background-color: #white;
+  background-color: white;
 }
 p {
   font-size: 25px;
 }
-a {
-  text-decoration: none;
-  color: var(--Primary-fontc);
-}
+
 img {
   border-radius: 10px;
 }
@@ -96,4 +113,11 @@ img {
   .app-info {
     text-align: center;
   }
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: black;
 }
