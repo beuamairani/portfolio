@@ -33,17 +33,6 @@
   max-width: 150px;
   border: solid white;
 }
-.secondary-link {
-  color: white;
-  margin: 20px;
-  border-radius: 4px;
-  padding: 15px 30px;
-  text-decoration: none;
-  text-transform: capitalize;
-  background-color: rgb(141, 134, 134, 0.2);
-  max-width: 150px;
-  border: solid white;
-}
 
 .body-links {
   color: black;
@@ -64,7 +53,9 @@
   margin-top: 60px;
   color: white;
 }
-
+.product-description {
+  padding: 30px 30px;
+}
 .video-wrapper {
   position: relative;
   width: 100%;
@@ -75,6 +66,7 @@
   align-items: center;
   justify-content: center;
 }
+
 video {
   object-fit: cover;
   height: 100%;
@@ -89,15 +81,16 @@ h1 {
   font-family: "Fira Sans Condensed", sans-serif;
 }
 h2 {
-  font-size: 35px;
+  font-size: 33px;
   margin: auto;
   font-family: "Barlow Condensed", sans-serif;
-  font-weight: lighter;
+  font-weight: bold;
 }
 h3 {
   color: white;
   font-family: "Barlow Condensed", sans-serif;
   font-weight: lighter;
+  font-size: 25px;
 }
 body {
   background-color: white;
@@ -112,6 +105,26 @@ img {
 @media (max-width: 600px) {
   .app-info {
     text-align: center;
+  }
+  h1 {
+    font-size: 35px;
+  }
+  h2 {
+    font: 25px;
+  }
+  .primary-link {
+    padding: 10px 25px;
+  }
+  .product-description {
+    text-align: center;
+  }
+}
+@media (max-width: 900px) {
+  p {
+    font-size: 15px;
+  }
+  .product-description {
+    padding-top: 0;
   }
 }
 a {
