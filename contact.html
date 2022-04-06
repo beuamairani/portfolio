@@ -26,19 +26,20 @@
 }
 body {
     margin: 50px 40px;
-    
+    background-image: linear-gradient(to bottom right, rgb(71, 61, 61), rgb(226, 226, 226));  
 }
 
 h1,
 h2,
 h3 {
-  
+  color: white;
   margin: 0;
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 80px;
   padding-top: 55px;
+  
 }
 
 h2 {
@@ -116,6 +117,36 @@ p {
   text-decoration: none;
   text-transform: capitalize;
 }
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px;
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=submit] {
+  background-color: #9a9c9c;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #000000;
+}
+
+
+.contact-form {
+  border-radius: 5px;
+  background-color: #fffdfd;
+  padding: 20px;
+}
+
 @media(max-width:600px){
     h1 {
         font-size: 40px;
@@ -175,21 +206,20 @@ p {
           </nav>
 
 
-    <h1 class="text-center">About me</h1>
+    <h1 class="text-center">Lets get digital!</h1>
 
-    <h3 class="text-center">Front-end developer from South San Francisco, United States</h3>
-    
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-        aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
-        alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
-        blanditiis harum.
-       
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-        aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
-        alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
-        blanditiis harum.
-      </p>
+    <div class="container contact-form">
+  <form action="action_page.php">
+    <label for="fname">Subject</label>
+    <input type="text" id="fname" name="firstname" placeholder="Subject">
+
+
+    <textarea id="subject" name="subject" placeholder="Hey Amairani! I think youre really awesome..." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
      
     
     <div class="container">
