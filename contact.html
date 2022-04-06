@@ -26,7 +26,7 @@
 }
 body {
     margin: 50px 40px;
-    background-image: linear-gradient(to bottom right, rgb(71, 61, 61), rgb(226, 226, 226));  
+    background-image: linear-gradient(to bottom right, rgb(31, 31, 31), rgb(226, 226, 226));  
 }
 
 h1,
@@ -118,10 +118,11 @@ p {
   text-transform: capitalize;
 }
 
+
 input[type=text], select, textarea {
   width: 100%; 
   padding: 12px;
-  border: 1px solid #ccc; 
+  border: 1px solid rgb(17, 17, 17); 
   border-radius: 4px; 
   box-sizing: border-box; 
   margin-top: 6px; 
@@ -132,7 +133,7 @@ input[type=submit] {
   background-color: #9a9c9c;
   color: white;
   padding: 12px 20px;
-  border: none;
+  border: 1px black solid;
   border-radius: 4px;
   cursor: pointer;
 }
@@ -145,6 +146,7 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #fffdfd;
   padding: 20px;
+  border: black solid 1px;
 }
 
 @media(max-width:600px){
@@ -206,15 +208,15 @@ input[type=submit]:hover {
           </nav>
 
 
-    <h1 class="text-center">Lets get digital!</h1>
+    <h1 class="text-center pb-3">Lets get digital!</h1>
 
     <div class="container contact-form">
   <form action="action_page.php">
     <label for="fname">Subject</label>
-    <input type="text" id="fname" name="firstname" placeholder="Subject">
+    <input type="text" id="fname" name="firstname" placeholder="Hey Amairani!">
 
 
-    <textarea id="subject" name="subject" placeholder="Hey Amairani! I think youre really awesome..." style="height:200px"></textarea>
+    <textarea id="subject" name="subject" placeholder="I think youre really awesome! Lets work together..." style="height:200px"></textarea>
 
     <input type="submit" value="Submit">
   </form>
@@ -222,7 +224,7 @@ input[type=submit]:hover {
 
      
     
-    <div class="container">
+    <div class="container pt-5">
       <div class="row">
         <div class="col-sm-4">
           <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/030/421/original/Screen_Shot_2022-03-29_at_11.44.54_AM.png?1648580012" alt="Astronomy App"class="img-fluid p-2 shadow rounded mb-4" />
