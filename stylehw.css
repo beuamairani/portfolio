@@ -5,7 +5,12 @@
   padding: 200px 25px;
   position: relative;
 }
-
+.navbar-brand {
+  font-family: "Fira Sans Condensed", sans-serif;
+}
+.nav-link {
+  font-family: "Fira Sans Condensed", sans-serif;
+}
 .information {
   display: flex;
   justify-content: center;
@@ -31,6 +36,7 @@
   text-transform: capitalize;
   background-color: rgb(141, 134, 134, 0.2);
   border: solid white 1px;
+  box-shadow: 5px 2px 5px rgb(206, 204, 204);
 }
 .primary-link:hover {
   background-color: rgba(255, 255, 255, 0.4);
@@ -56,7 +62,8 @@
   color: white;
 }
 .product-description {
-  padding: 30px 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
 }
 .video-wrapper {
   position: relative;
@@ -68,9 +75,10 @@
   align-items: center;
   justify-content: center;
 }
-.photo {
+.selfie-photo {
   border-radius: 200px;
   max-width: 60%;
+  object-fit: cover;
 }
 
 video {
@@ -99,7 +107,7 @@ h3 {
   font-size: 25px;
 }
 h4 {
-  font-family: "Kaushan Script", cursive;
+  font-family: "Grape Nuts", cursive;
   font-size: 55px;
 }
 body {
@@ -121,6 +129,9 @@ img {
   }
   h2 {
     font: 25px;
+  }
+  h4 {
+    padding-bottom: 0px;
   }
   .primary-link {
     padding: 10px 25px;
