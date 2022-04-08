@@ -38,7 +38,6 @@
   text-transform: capitalize;
   background-color: rgb(141, 134, 134, 0.2);
   border: solid white 1px;
-  box-shadow: 5px 2px 5px rgb(206, 204, 204);
 }
 .primary-link:hover {
   background-color: rgba(255, 255, 255, 0.4);
