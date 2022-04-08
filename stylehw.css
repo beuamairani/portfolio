@@ -6,12 +6,13 @@
   position: relative;
 }
 .navbar-brand {
-  font-family: "Fira Sans Condensed", sans-serif;
-  font-weight: bolder;
+  font-family: "Spartan", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
 }
 .nav-link {
-  font-family: "Fira Sans Condensed", sans-serif;
-  font-weight: bold;
+  font-family: "Spartan", sans-serif;
+  font-size: 15px;
 }
 .information {
   display: flex;
@@ -59,12 +60,9 @@
 .about-description {
   font-family: "Fira Sans Condensed", sans-serif;
 }
-.container {
-  padding-bottom: 10px;
-}
 .welcome {
   margin-top: 60px;
-  color: white;
+  color: black;
 }
 
 .video-wrapper {
@@ -92,15 +90,16 @@ video {
   left: 0;
 }
 h1 {
-  font-size: 55px;
+  font-size: 75px;
   color: white;
-  font-family: "Fira Sans Condensed", sans-serif;
+  font-family: "Bebas Neue", cursive;
 }
 h2 {
   font-size: 33px;
   margin: auto;
-  font-family: "Barlow Condensed", sans-serif;
+  font-family: "Bebas Neue", cursive;
   font-weight: bold;
+  color: #151d3a;
 }
 h3 {
   color: white;
@@ -108,10 +107,7 @@ h3 {
   font-weight: lighter;
   font-size: 25px;
 }
-h4 {
-  font-family: "Grape Nuts", cursive;
-  font-size: 55px;
-}
+
 body {
   background-color: white;
 }
