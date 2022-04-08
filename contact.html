@@ -31,7 +31,7 @@
 }
 body {
     margin: 50px 40px;
-    background-image: linear-gradient(to bottom right, rgb(31, 31, 31), rgb(226, 226, 226));  
+    background-color: black; 
 }
 
 h1,
@@ -49,6 +49,7 @@ h1 {
 
 h2 {
   font-size: 48px;
+  
 }
 
 h3 {
@@ -101,14 +102,11 @@ p {
   display: block;
 }
 
-.about-paragraphs p {
-  margin: 10px;
-}
 
 .email-link {
   display: flex;
   justify-content: center;
-  color: var(--primary-color);
+  color:#b32424;
   font-size: 28px;
   text-decoration: none;
 }
@@ -116,20 +114,28 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
-.yoga-pic {
-  max-width: 800px;
+.welcome-message {
+  position: absolute;
+  
 }
-.launch-yoga {
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
-  margin: 20px;
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
+.space-pic {
+  object-fit: cover;
+  height: 70%;
+  width: 100%;
+  position: absolute;
+  opacity: 0.7;
+  
 }
-
+.picture-wrapper {
+  
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 200px;
+}
 
 input[type=text], select, textarea {
   width: 100%; 
@@ -142,7 +148,7 @@ input[type=text], select, textarea {
   resize: vertical;
 }
 input[type=submit] {
-  background-color: #9a9c9c;
+  background-color: #b32424;
   color: white;
   padding: 12px 20px;
   border: 1px black solid;
@@ -159,6 +165,7 @@ input[type=submit]:hover {
   background-color: #fffdfd;
   padding: 20px;
   border: black solid 1px;
+  
 }
 
 @media(max-width:600px){
@@ -218,9 +225,10 @@ input[type=submit]:hover {
             </div>
           </div>
           </nav>
-
-
-    <h1 class="text-center pb-3">Lets get digital!</h1>
+<div class="picture-wrapper">
+<img src="digital.jpg" title="Contact Amairani- Picture of Space" class="space-pic"> 
+    <h1 class="text-center pb-3 welcome-message">Lets get digital!</h1>
+</div>
 
     <div class="container contact-form">
   <form action="action_page.php">
@@ -234,21 +242,7 @@ input[type=submit]:hover {
   </form>
 </div>
 
-     
-    
-    <div class="container pt-5">
-      <div class="row">
-        <div class="col-sm-4">
-          <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/030/421/original/Screen_Shot_2022-03-29_at_11.44.54_AM.png?1648580012" alt="Astronomy App"class="img-fluid p-2 shadow rounded mb-4" />
-        </div>
-        <div class="col-sm-4">
-          <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/030/422/original/Screen_Shot_2022-03-29_at_11.55.39_AM.png?1648580152" alt="Weather App"class="img-fluid p-2 shadow rounded mb-4" />
-        </div>
-        <div class="col-sm-4">
-          <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/030/424/original/Screen_Shot_2022-03-29_at_12.00.00_PM.png?1648580420" alt="Yogurt App"class="img-fluid p-2 shadow rounded mb-4"/>
-        </div>
-      </div>
-    </div>
+  
     <div id="contact" class="mt-5">
       <h2 class="text-center">📮 Email me</h2>
       <a href="mailto:montanoamairani@gmail.com" class="email-link" title="Email Amairani Hernandez">

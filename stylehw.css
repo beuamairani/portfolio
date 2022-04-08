@@ -57,6 +57,9 @@
   border-width: 1px;
   border-color: black;
 }
+.about-description {
+  font-family: "Fira Sans Condensed", sans-serif;
+}
 .container {
   padding-bottom: 10px;
 }
@@ -64,10 +67,7 @@
   margin-top: 60px;
   color: white;
 }
-.product-description {
-  padding-bottom: 30px;
-  padding-left: 30px;
-}
+
 .video-wrapper {
   position: relative;
   width: 100%;
