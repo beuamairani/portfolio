@@ -82,6 +82,9 @@
   object-fit: cover;
   max-width: 60%;
 }
+.email-link {
+  color: black;
+}
 
 video {
   object-fit: cover;
