@@ -76,7 +76,7 @@
 .selfie-photo {
   border-radius: 10px;
   object-fit: cover;
-  max-width: 60%;
+  max-width: 70%;
 }
 
 video {
@@ -118,9 +118,6 @@ img {
   border-radius: 10px;
 }
 @media (max-width: 600px) {
-  .app-info {
-    text-align: center;
-  }
   h1 {
     font-size: 35px;
   }
@@ -129,6 +126,12 @@ img {
   }
   h4 {
     padding-bottom: 0px;
+  }
+  p {
+    font-size: 20px;
+  }
+  .app-info {
+    text-align: center;
   }
   .primary-link {
     padding: 10px 25px;
@@ -149,9 +152,6 @@ img {
   }
 }
 @media (max-width: 900px) {
-  p {
-    font-size: 15px;
-  }
   .product-description {
     padding-top: 0;
   }
@@ -162,4 +162,9 @@ a {
 }
 a:hover {
   color: black;
+}
+@media (min-width: 900px) {
+  p {
+    font-size: 25px;
+  }
 }
