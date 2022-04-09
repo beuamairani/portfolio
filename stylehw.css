@@ -136,6 +136,17 @@ img {
   .product-description {
     text-align: center;
   }
+  .weather-pic {
+    padding-top: 35px;
+    padding-bottom: 6px;
+  }
+  .yogurt-pic {
+    padding-top: 35px;
+    padding-bottom: 6px;
+  }
+  .astronomy-pic {
+    padding-bottom: 6px;
+  }
 }
 @media (max-width: 900px) {
   p {
