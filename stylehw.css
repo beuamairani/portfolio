@@ -46,7 +46,7 @@
 }
 
 .body-links {
-  color: black;
+  color: white;
   margin: 20px;
   border-radius: 4px;
   padding: 15px 30px;
@@ -55,14 +55,23 @@
   max-width: 150px;
   border-style: solid;
   border-width: 1px;
-  border-color: black;
+  border-color: white;
+}
+.body-links:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+  transition: ease-in 0.1s;
 }
 
 .welcome {
   margin-top: 60px;
-  color: black;
+  padding-bottom: 18px;
 }
-
+.body-container {
+  border: 1px white solid;
+  margin: 0 80px 20px 80px;
+  padding-bottom: 70px;
+  border-radius: 10px;
+}
 .video-wrapper {
   position: relative;
   width: 100%;
@@ -77,6 +86,23 @@
   border-radius: 10px;
   object-fit: cover;
   max-width: 70%;
+}
+.fa-github {
+  font-size: 40px;
+}
+.fa-linkedin {
+  font-size: 40px;
+}
+.icons {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+.icon-description {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  font-family: "Barlow Condensed", sans-serif;
 }
 
 video {
@@ -97,7 +123,7 @@ h2 {
   margin: auto;
   font-family: "Bebas Neue", cursive;
   font-weight: bold;
-  color: #151d3a;
+  color: white;
 }
 h3 {
   color: white;
@@ -107,15 +133,19 @@ h3 {
 }
 
 body {
-  background-color: white;
+  background-color: black;
 }
 p {
   font-size: 25px;
   font-family: "Barlow Condensed", sans-serif;
+  color: white;
 }
 
 img {
   border-radius: 10px;
+}
+footer {
+  color: white;
 }
 @media (max-width: 600px) {
   h1 {
@@ -149,6 +179,19 @@ img {
   }
   .astronomy-pic {
     padding-bottom: 6px;
+  }
+  .icon-description {
+    font-size: 15px;
+  }
+  .body-container {
+    margin: 0px 2px 0 2px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+  }
+  .welcome {
+    font-size: 28px;
+    padding-bottom: 0px;
+    margin-top: 30px;
   }
 }
 @media (max-width: 900px) {
